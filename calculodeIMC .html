@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="/storage/emulated/0/Estudos/Calculadora/css.css">
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>
+    Calculadora de IMC
+  </h1>
+  <form>
+    <p>
+      <label for="nome"onclick="click1()" >Nome: </label ><br>
+     
+      <input type="text" id="nome" placeholder="informe o seu nome.">
+       <hr>
+    </p>
+    <p>
+      <label for="peso" onclick="click2()">Peso: </label>
+      <br>
+      <input type="number" id="peso" placeholder="informe o seu peso." required>
+       <hr>
+    </p>
+    <p>
+      <label for="altuta" onclick="click3()">Altuta: </label>
+      <br>
+      <input type="number" id="altura" placeholder="informe a sua altura." required>
+       <hr>
+    </p>
+    <p>
+      <button type="button" id="btn" onclick="calcular()">Calcular</button>
+    </p>
+  </form>
+  <div id="res">
+    
+  </div>
+  <script src="/storage/emulated/0/Estudos/Calculadora/calcular.js"></script>
+</body>
+</html>
